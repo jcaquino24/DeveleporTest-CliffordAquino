@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer-Test</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/mobile.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css">
+</head>
+
+<body>
+    <header><button onClick="showCart()" class="Cart"><span class="text">My Cart</span><i class="fas fa-shopping-cart"></i></button>
+
+        <div id="cart">
+            <h5>Cart is empty</h5>
+        </div>
+    </header>
+
+    <body>
+        <div class="main product-page">
+            <div class="row">
+                <div class="col-2">
+                    <img id="productImg" src="assets/images/classic-tee.jpg" alt="">
+                </div>
+
+
+                <div class="col-2">
+                    <h1 id="title">Classic Tee</h1>
+                    <h4 id="price">$75.00</h4>
+                    <p>Dolor sit amet, consectetur adipiscing elit. Haec et tu ita posuisti, et verba vestra sunt. Quod autem ratione actum est, id officium appellamus dolor sit amet, consectetur adipiscing elit. Haec et tu ita posuisti, et verba vestra
+                        sunt. Quid autem ratione actum est, id officium appellamus</p>
+
+                    <span class="size">Size</span><i class="fas fa-asterisk"></i>
+                    <div class="sizesSelection">
+                        <input type="radio" name="radio" id="Small" value="Small">
+                        <label for="Small">S</label>
+                        <input type="radio" name="radio" id="Medium" value="Medium">
+                        <label for="Medium">M</label>
+                        <input type="radio" name="radio" id="Large" value="Large">
+                        <label for="Large">L</label>
+                    </div>
+
+                    <button onClick="AddToCart()" class="btn">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </body>
+
+</body>
+
+<script type="text/javascript" src="assets/script.js"></script>
+
+</html>
